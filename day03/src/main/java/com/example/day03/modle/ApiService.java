@@ -29,7 +29,7 @@ public interface ApiService {
 
 
     @GET("serverdemo//tag/queryTagList")
-    Observable<ListBean> getList();
+    Observable<ListBean> getList();//
 
 
 }
